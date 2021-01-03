@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Van Gogh</title>
+<html>
+
+<!--head-->
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel='stylesheet' href="src/css/main.css">
+  <!--css-->
+ 
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">  
+  <!--font-->
+
+  <!--mapbox-->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/styles/v1/shlipshlap09/cki7njyk2appx19o5m5odgqjn.html?fresh=true&title=view&access_token=pk.eyJ1Ijoic2hsaXBzaGxhcDA5IiwiYSI6ImNrZjNycXZ2OTA2Mm4yeXM3bmxpN3JndzcifQ.WPeW5bXJoLuV3BwS-9FPGA" rel="stylesheet" />
+  <!--mapbox-->
+
+</head>
+<!--head-->
+
+
+<body>
+
+  <!--header-->
+  <div class="block">
+    <header class="header">
+      <a href="#"class="header-logo">
+        <!--VAN GOGH-->
+        <img src="src/img/VanGoghLogo.svg" alt="Van Gogh Logo">
+      </a>
+      <div class="header-burger">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <nav class="header-menu">
+          <a href="#chemin">Chemin de vie</a>
+          <a href="#oeuvres">Travaux</a>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <!--header-->
+
+  <!--banner-->
+  <div class="block">
+    <div class="banner">
+        <img src="src/img/Sans titre-3.png" alt="Autoportrait Van Gogh" class="banner-image">
+        <div class="banner-content">
+          <h1 class="title is-1">VAN GOGH</h1>
+          <ul class="banner-texte">
+            <li class="banner-data-type">Dessins</li>
+            <li class="banner-data">1100</li>
+            <li class="banner-data-type">Peintures</li>
+            <li class="banner-data">900</li>
+            <li class="banner-data-type">Oeuvres</li>
+            <li class="banner-data">2000</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <!--banner-->
+
+  <!--section Map & Chemin-->
+  <div class="block" id="chemin">
+    <div class="chemin-h2">
+      <h2 class="title is-1">Chemin de vie</h2>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="container mapSection">
+      <div class="columns">
+        <div class="column is-one-third map-column">
+          <div class="chemin">
+            <div class="chemin-p">
+                          <p>Van Gogh, l’artiste maudit et incompris, esprit sensible et torturé est devenu une légende.
+                          Il grandit au sein d'une famille nombreuse de l'ancienne bourgeoisie avec un père pasteur. 
+                          Il tente d'abord de faire carrière comme marchand d'art chez Goupil & Cⁱᵉ, entreprise d’un de ses oncles. 
+                          Il a travaillé à Londres, à la Haye et en Belgique. Cependant, refusant de voir l'art comme une marchandise, il se fait licencier. 
+                          Il aspire alors à devenir pasteur, hélas il échoue aux examens de théologie. À l'approche de 1880, il se tourne vers la peinture. 
+                          Pendant ces années, il quitte les Pays-Bas pour s'inscrire aux beaux art en Belgique où il ne supportera pas le conformisme de l’académie. 
+                          Il tombe amoureux de sa cousine Kate Vos-Stricker qui le repoussera. Fou d’elle, il ira au nord des pays bas pour demander sa main à son oncle et sa tante. 
+                          Il ira même jusqu'à se brûler la main sur une lampe pour prouver sa détermination, en vain.</p>
+             
+                          <p>Il s'établit en France chez son frère, à Paris. Il y découvre l'impressionnisme et le japonisme au travers de nombreuses expositions. 
+                          Il rencontre Paul Gauguin avec qui il va s'installer à Arles, dans la maison jaune, pour y créer leur atelier d’art.
+                          Van Gogh explore la peinture et le dessin à la fois en autodidacte et en suivant des cours. 
+                          Passionné, il ne cesse d'enrichir sa culture picturale : il analyse le travail des peintres de l'époque, il visite des musées et des galeries d'art, 
+                          il échange des idées avec ses amis peintres, il étudie les estampes japonaises et les gravures anglaises. Van Gogh est à son zénith. 
+                          Malheureusement son instabilité émotionnelle se mélange au caractère de Gauguin, ce qui va engendrer cette dispute légendaire dans leur atelier d'Arles. 
+                          Il aurait tenté de blesser son ami avec un rasoir. Gauguin le quitte</p>
+            
+                          <p>Sombrant dans ses tourments, le peintre se coupe le lobe de l’oreille et, dit-on, l'offre à une prostituée qu’il aimait. 
+                          Il sera pris en charge à l'hôpital de Arles. Une fois soi-disant guéri, il sort de ce dernier. 
+                          Une pétition tourne alors dans le village afin qu’il soit interné à nouveau. Il séjournera au monastère Saint-Paul de Mausole où il 
+                          sera paisible et rencontrera son ami le docteur Gachet. Sans le savoir, sa dernière peinture “champ de blé aux corbeaux” illustre sa mort, 
+                          seul dans un champ aux milieu du blé ensoleillé. Les corbeaux, allégories de ses tourments, s’envolent vers d’autres horizons au son retentissant d’une arme à feu.</p>
+            </div>
+          </div>  
+        </div>
+        <div class="column is-one-fifth map-column">
+          <div id="map" class="map"></div>
+          <script>
+            mapboxgl.accessToken = "pk.eyJ1Ijoic2hsaXBzaGxhcDA5IiwiYSI6ImNrZjNycXZ2OTA2Mm4yeXM3bmxpN3JndzcifQ.WPeW5bXJoLuV3BwS-9FPGA";
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: "mapbox://styles/shlipshlap09/ckjfq5scwnfyk19qkwa84unkg"});
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--section Map & Chemin-->
+
+  <!--section Oeuvres-->
+  <div class="block" id="oeuvres">
+    <div class="container oeuvres">
+      <h2 class="title is-1">Travaux</h2>
+      <div class="columns is-mobile">
+        <div class="column oeuvres-single-element">
+          <a href="">
+            <img class="oeuvre" src="src/img/dessin.png" alt="">
+          <ul class="oeuvre-texte">
+            <li class="oeuvre-data-type">Dessins</li>
+            <li class="oeuvre-data">1100</li>
+          </ul>
+          </a>
+        </div>
+        <div class="column oeuvres-single-element">
+          <a href="">
+            <img class="oeuvre" src="src/img/1313962-Vincent_Van_Gogh_le_Champ_de_blé_aux_corbeaux.jpg" alt="Le champ de blé aux corbeaux">
+          <ul class="oeuvre-texte">
+            <li class="oeuvre-data-type">Peintures</li>
+            <li class="oeuvre-data">900</li>
+          </ul>
+          </a>
+        </div>
+        <div class="column is-one-third oeuvres-single-element">
+          <a href="">
+            <img class="oeuvre" src="src/img/van-gogh-la-nuit-etoilee-1.jpg" alt="La nuit étoilée">
+          <ul class="oeuvre-texte">
+            <li class="oeuvre-data-type">Oeuvres</li>
+            <li class="oeuvre-data">2000</li>
+          </ul>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--section Oeuvres-->
+
+  <!--section Footer-->
+  <div class="block">
+    <div class="container footer">
+      <div class="columns">
+        <div class="column is-half footer-column">
+          <a href="">
+            <img class="footer-logo" src="src/img/VanGoghLogo.svg" alt="Van Gogh Logo">
+          </a>  
+        </div>
+        <div class="column is-one-fifth footer-column">
+          <nav class="footer-content">
+            <li class="footer-content-h2">MENU</li>
+            <a href="#chemin" class="footer-content-a">CHEMIN DE VIE</a>
+            <a href="#oeuvres" class="footer-content-a">TRAVAUX</a>
+          </nav>
+        </div>
+        <div class="column is-one-fifth footer-column">
+          <nav class="footer-content">
+            <li class="footer-content-h2">PAGES</li>
+            <a class="footer-content-a">DESSINS</a>
+            <a class="footer-content-a">PEINTURES</a>
+            <a class="footer-content-a">OEUVRES</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--section Footer--> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="src/js/main.js"></script>
+
+</body>
+
+</html>
